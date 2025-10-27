@@ -61,22 +61,22 @@ public class Main {
         //-----------------------------------------------------------------------
         // square test
 
-        Square square1=new Square();
-        Square square2=new Square(5);
-        Square square3=new Square("cyan",true,20);
-
-        System.out.println("the side of the first square is: "+square1.get_side());
-
-        square2.set_side(6.5);
-        square2.set_color("blue");
-        square2.set_filled(false);
-
-        System.out.println("the area of the third square is: "+square3.get_area());
-        System.out.println("the perimeter of the third square is: "+square3.get_perimeter());
-
-        System.out.println(square1.to_string());
-        System.out.println(square2.to_string());
-        System.out.println(square3.to_string());
+//        Square square1=new Square();
+//        Square square2=new Square(5);
+//        Square square3=new Square("cyan",true,20);
+//
+//        System.out.println("the side of the first square is: "+square1.get_side());
+//
+//        square2.set_side(6.5);
+//        square2.set_color("blue");
+//        square2.set_filled(false);
+//
+//        System.out.println("the area of the third square is: "+square3.get_area());
+//        System.out.println("the perimeter of the third square is: "+square3.get_perimeter());
+//
+//        System.out.println(square1.to_string());
+//        System.out.println(square2.to_string());
+//        System.out.println(square3.to_string());
 
     }
 }
