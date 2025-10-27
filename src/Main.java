@@ -40,25 +40,43 @@ public class Main {
         //-----------------------------------------------------------------------
         // rectangle test
 
-        Rectangle rectangle1=new Rectangle();
-        Rectangle rectangle2=new Rectangle(5,4);
-        Rectangle rectangle3=new Rectangle("pink",false,9.5,12);
+//        Rectangle rectangle1=new Rectangle();
+//        Rectangle rectangle2=new Rectangle(5,4);
+//        Rectangle rectangle3=new Rectangle("pink",false,9.5,12);
+//
+//        System.out.println("the length of the first rectangle is: "+rectangle1.get_length());
+//        System.out.println("the width of the first rectangle is: "+rectangle1.get_width());
+//
+//        rectangle2.set_length(5.5);
+//        rectangle2.set_width(4.5);
+//        rectangle2.set_color("blue");
+//
+//        System.out.println("the area of the third rectangle is: "+rectangle3.get_area());
+//        System.out.println("the perimeter of the third rectangle is: "+rectangle3.get_perimeter());
+//
+//        System.out.println(rectangle1.to_string());
+//        System.out.println(rectangle2.to_string());
+//        System.out.println(rectangle3.to_string());
 
-        System.out.println("the length of the first rectangle is: "+rectangle1.get_length());
-        System.out.println("the width of the first rectangle is: "+rectangle1.get_width());
+        //-----------------------------------------------------------------------
+        // square test
 
-        rectangle2.set_length(5.5);
-        rectangle2.set_width(4.5);
-        rectangle2.set_color("blue");
+        Square square1=new Square();
+        Square square2=new Square(5);
+        Square square3=new Square("cyan",true,20);
 
-        System.out.println("the area of the third rectangle is: "+rectangle3.get_area());
-        System.out.println("the perimeter of the third rectangle is: "+rectangle3.get_perimeter());
+        System.out.println("the side of the first square is: "+square1.get_side());
 
-        System.out.println(rectangle1.to_string());
-        System.out.println(rectangle2.to_string());
-        System.out.println(rectangle3.to_string());
+        square2.set_side(6.5);
+        square2.set_color("blue");
+        square2.set_filled(false);
 
+        System.out.println("the area of the third square is: "+square3.get_area());
+        System.out.println("the perimeter of the third square is: "+square3.get_perimeter());
 
+        System.out.println(square1.to_string());
+        System.out.println(square2.to_string());
+        System.out.println(square3.to_string());
 
     }
 }
