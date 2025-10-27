@@ -20,22 +20,45 @@ public class Main {
         //-----------------------------------------------------------------------
         // circle test
 
-        Circle circle1=new Circle();
-        Circle circle2=new Circle(5.5);
-        Circle circle3=new Circle("purple",true,15);
+//        Circle circle1=new Circle();
+//        Circle circle2=new Circle(5.5);
+//        Circle circle3=new Circle("purple",true,15);
+//
+//        System.out.println("the color of the first circle is: "+circle1.get_color());
+//        System.out.println("the radius of the first circle is: "+circle1.get_radius());
+//
+//        circle2.set_radius(6.5);
+//        circle2.set_color("red");
+//
+//        System.out.println("The area of the third circle is: "+circle3.get_area());
+//        System.out.println("The perimeter of the third circle is: "+circle3.get_perimeter());
+//
+//        System.out.println(circle1.to_string());
+//        System.out.println(circle2.to_string());
+//        System.out.println(circle3.to_string());
 
-        System.out.println("the color of the first circle is: "+circle1.get_color());
-        System.out.println("the radius of the first circle is: "+circle1.get_radius());
+        //-----------------------------------------------------------------------
+        // rectangle test
 
-        circle2.set_radius(6.5);
-        circle2.set_color("red");
+        Rectangle rectangle1=new Rectangle();
+        Rectangle rectangle2=new Rectangle(5,4);
+        Rectangle rectangle3=new Rectangle("pink",false,9.5,12);
 
-        System.out.println("The area of the third circle is: "+circle3.get_area());
-        System.out.println("The perimeter of the third circle is: "+circle3.get_perimeter());
+        System.out.println("the length of the first rectangle is: "+rectangle1.get_length());
+        System.out.println("the width of the first rectangle is: "+rectangle1.get_width());
 
-        System.out.println(circle1.to_string());
-        System.out.println(circle2.to_string());
-        System.out.println(circle3.to_string());
+        rectangle2.set_length(5.5);
+        rectangle2.set_width(4.5);
+        rectangle2.set_color("blue");
+
+        System.out.println("the area of the third rectangle is: "+rectangle3.get_area());
+        System.out.println("the perimeter of the third rectangle is: "+rectangle3.get_perimeter());
+
+        System.out.println(rectangle1.to_string());
+        System.out.println(rectangle2.to_string());
+        System.out.println(rectangle3.to_string());
+
+
 
     }
 }
